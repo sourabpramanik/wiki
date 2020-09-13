@@ -1,0 +1,68 @@
+.wrap{
+
+    display: flex;
+    position: relative;
+    }
+body{
+    background-color: azure;
+    }
+.wrap .sidebar{
+    position: fixed;
+    width: 250px;
+    padding: 30px;
+    background-color: black;
+    color: rgb(169, 207, 207);
+    height: 900px;
+    }
+.wrap .sidebar .page-head h2{
+    font-size: 90px;
+    font-weight: bolder;
+    color: azure;
+    font-family: 'Nova Slim', cursive;
+}
+.wrap .sidebar .sidebar-content{
+    padding-top: 50px;
+}
+.wrap .sidebar .sidebar-content li:hover{
+    font-weight: bold;
+}
+.wrap .sidebar .sidebar-content li{
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+.search-bar{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-style: normal;
+    size: 30px;
+}
+.search-results li{
+    font-size: 30px;
+
+}
+.main_content{
+    margin-left: 290px;
+    margin-right: 20px;
+
+}
+td{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 40px;
+
+}
+.edit-context{
+    padding-top: 20px;
+}
+.edit{
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
